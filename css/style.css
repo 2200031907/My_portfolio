@@ -59,14 +59,14 @@ p {
   background-size:cover;
   position:relative;
   top: 15%;
-  right: -4.5%;
-  border-top-right-radius: var(--curve-size); /* Bends top-right corner */
-  margin: 50px auto;
-  box-shadow: 0 4px 6px rgba(248, 248, 247, 0.961);
+  right: -20%;
+  background-color: #51c755;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+  
 
 }
 
-/* GRID COMMON STYLES */
+
 
 #grid {
   position: absolute;
@@ -273,7 +273,7 @@ article p {
   margin: auto auto 0.5rem;
   border: var(--border);
   background: var(--bg-alt);
-
+ 
 }
 
 .project__img {

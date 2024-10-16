@@ -1,4 +1,4 @@
-/* GENERAL ANIMATION SETTINGS */
+
 
 .animate-top-left,
 .reverse-animate-top-left,
@@ -8,13 +8,13 @@
 .reverse-animate-bottom-left,
 .animate-bottom-right,
 .reverse-animate-bottom-right {
-  animation-fill-mode: forwards;
+  animation-fill-mode:forwards;
   animation-duration: 0.2s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;
 }
 
-/* HOVER ANIMATION */
+
 
 @keyframes hover {
   0% {
@@ -28,7 +28,7 @@
   }
 }
 
-/* ANIMATE TOP LEFT */
+
 
 .animate-top-left {
   animation-name: top-left;
@@ -117,7 +117,6 @@
   }
 }
 
-/* ANIMATE BOTTOM RIGHT */
 
 .animate-bottom-right {
   animation-name: bottom-right;
@@ -162,7 +161,6 @@
     background-image: var(--br-1);
   }
 }
-/* ANIMATE BOTTOM LEFT */
 
 .animate-bottom-left {
   animation-name: bottom-left;
